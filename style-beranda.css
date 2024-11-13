@@ -1,0 +1,361 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar */
+.navbar-atas .tombol-produk {
+    width: auto;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 1px;
+    background-color: white;
+    color: rgb(13, 154, 11);
+    border: 1.5px solid rgb(13, 154, 11);
+    border-radius: 8px;
+}
+
+.navbar-atas .tombol-produk:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: rgb(13, 154, 11);
+}
+/* close navbar */
+
+/* Carousel */
+.img-carousel-hover-zoom {
+    overflow: hidden;
+}
+
+.img-carousel-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.img-carousel-hover-zoom:hover img {
+    transform: scale(1.05);
+}
+/* close carousel */
+
+/* Card */
+.img-card-hover-zoom {
+    overflow: hidden;
+}
+
+.img-card-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.img-card-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+
+.img-card-hover-zoom:hover h5 {
+    color: rgb(255, 98, 0);
+}
+/* close card */
+
+/* Box Unggah Resep */
+.box-unggah-resep {
+    width: 84%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 8%;
+}
+
+.box-unggah-resep .rectangle {
+    width: 80%;
+    height: 420px;
+    background: linear-gradient(to bottom, rgb(255, 56, 89), rgb(253, 118, 45));
+    border-radius: 40px;
+}
+
+.box-unggah-resep .rectangle img{
+    width: 95%;
+    height: 242px;
+    border-radius: 10px;
+    margin: 35px 0 0 35px;
+}
+
+.box-unggah-resep .row .col2 {
+    color: white;
+    margin: 30px 0 0 10px;
+}
+
+.box-unggah-resep .col-buton .btn {
+    width: auto;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-top: 45px;
+}
+
+.box-unggah-resep .btn-light {
+    color: rgb(253, 118, 45);
+}
+
+.box-unggah-resep .btn-outline-light:hover {
+    color: rgb(253, 118, 45);
+}
+
+.box-unggah-resep .btn-light:hover {
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    border-color: white;
+}
+/* close box unggah resep */
+
+/* Resep terbaru */
+.resep-terbaru {
+    width: 84%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.resep-terbaru .btn-jam {
+    width: auto;
+    height: 38px;
+    color: rgb(253, 89, 0);
+    border: 1.5px solid rgb(255, 89, 0);
+    border-radius: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.resep-terbaru .btn-hat {
+    width: auto;
+    height: 37px;
+    color: rgb(254, 89, 0);
+    border: 1.5px solid rgb(253, 89, 0);
+    border-radius: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.resep-terbaru .btn-jam:hover {
+    color: white;
+    background-color: rgb(254, 89, 0);
+}
+
+.resep-terbaru .btn-hat:hover {
+    color: white;
+    background-color: rgb(254, 89, 0);
+}
+
+.btn-img-card-hover-zoom {
+    overflow: hidden; 
+}
+
+.btn-img-card-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.btn-img-card-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+
+.btn-img-card-hover-zoom:hover h5 {
+    color:rgb(13, 154, 11);
+}
+
+.resep-terbaru .btn-akhir {
+    width: 39.2%;
+    height: 47px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 154, 11);
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resep-terbaru .btn-akhir:hover {
+    background-color: rgb(14, 136, 12);
+}
+/* close resep terbaru */
+
+/* Produk */
+.produk {
+    width: 84.2%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 78px 0 0 8%;
+}
+
+.produk img {
+    width: 85%;
+    margin: -50px 0 46px 0;
+}
+
+.produk .card-title {
+    margin: -34px 0 22px 0;
+}
+
+.produk .tombol-produk {
+    width: 86%;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    background-color: white;
+    color: rgb(13, 154, 11);
+    border: 1.5px solid rgb(13, 154, 11);
+    border-radius: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.produk .tombol-produk:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+
+.produk-img-card-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.produk-img-card-hover-zoom:hover img {
+    transform: scale(1.08);
+}
+
+.produk .btn-akhir {
+    width: 39.2%;
+    height: 47px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 154, 11);
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.produk .btn-akhir:hover {
+    background-color: rgb(14, 136, 12);
+}
+/* close produk */
+
+/* Box Temukan Resep */
+.box-temukan-resep {
+    width: 84.28%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 7.9%;
+}
+
+.box-temukan-resep .rectangle {
+    width: 100%;
+    height: 193px;
+    background: linear-gradient(to right, rgb(255, 56, 89), rgb(253, 118, 45));
+}
+
+.box-temukan-resep .rectangle img{
+    width: 90%;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: -58px 0 0 50px;
+    box-shadow: -3px 5px 15px rgba(0, 0, 0, 0.355);
+}
+
+.box-temukan-resep .rectangle p {
+    font-size: 40px;
+    color: white;
+    margin: 22px 0 0 50px;
+}
+
+.box-temukan-resep .rectangle .tombol-gambar {
+    width: 85%;
+    height: 56px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(17, 166, 17);
+    margin: 62.5px 0 0 0;
+    border: 1.5px;
+    border-radius: 30px;
+    box-shadow: -3px 5px 15px rgba(0, 0, 0, 0.5);
+}
+/* close box temukan resep */
+
+/* Footer */
+.foter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.foter .rectangle {
+    width: 100%;
+    height: 320px;
+    background: rgb(255, 68, 11);
+}
+
+.foter .col {
+    margin: 32px 0 0 0;
+}
+
+.foter .kol-1 {
+    margin: 32px 0 0 0;
+}
+
+.foter .colom-1 ul li {
+    color: white;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.foter .colom-2 ul li {
+    color: white;
+    font-size: 16.6px;
+    margin-bottom: 10px;
+}
+
+.foter .colom-3 {
+    margin-right: 90px;
+}
+
+.foter .colom-3 .icon-foter {
+    color: white;
+    margin: -10px 8px 0 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.foter .colom-3 ul li {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.foter .unilever {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.foter .recepedia {
+    width: 140px;
+    height: auto;
+    margin-right: -12px;
+}
+
+.foter .kol-1 ul li:hover {
+    text-decoration: underline;
+}
+
+.foter .colom-3 .icon-foter:hover {
+    color: rgb(220, 220, 220);
+}
+/* close footer */

@@ -1,0 +1,362 @@
+/* Navbar */
+.navbar-atas .tombol-produk {
+    width: auto;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 1px;
+    background-color: white;
+    color: rgb(13, 154, 11);
+    border: 1.5px solid rgb(13, 154, 11);
+    border-radius: 8px;
+}
+
+.navbar-atas .tombol-produk:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: rgb(13, 154, 11);
+}
+/* close navbar */
+
+/* Breadcrumb */
+.brdcrmb a {
+    font-size: 14px;
+}
+
+.brdcrmb .left {
+    margin-right: 15px;
+}
+
+.brdcrmb .beranda:hover {
+    text-decoration: underline;
+}
+
+.brdcrmb li {
+    color: #434652;
+}
+/* close breadcrumb */
+
+/* Produk Kami */
+.produk-kami {
+    width: 98.4%;
+    height: auto;
+    margin: 78px 0 0 0;
+}
+
+.produk-kami img {
+    width: 70%;
+    margin: -50px 0 46px 0;
+}
+
+.produk-kami .card-title {
+    margin: -34px 0 22px 0;
+}
+
+.produk-kami .tombol-produk {
+    width: 89%;
+    height: 50px;
+    font-size: 18px;
+    background-color: white;
+    color: rgb(13, 154, 11);
+    border: 1.5px solid rgb(13, 154, 11);
+    border-radius: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.produk-kami .tombol-produk:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+
+.produk-img-card-hover-zoom {
+    margin: 18px 0 80px 0;
+}
+
+.produk-img-card-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.produk-img-card-hover-zoom:hover img {
+    transform: scale(1.08);
+}
+
+/*************** TOMBOL BRAND *************** */
+.bagian-brand .page-item {
+    width: auto;
+    height: 37px;
+    margin-bottom: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.bagian-brand .brand-active {
+    width: 42px;
+    color: white;
+    background-color: rgb(13, 154, 11);
+    border: none;
+    border-radius: 20px;
+}
+
+.bagian-brand .brand {
+    width: 42px;
+    color: rgb(13, 154, 11);
+    border: 1.5px solid rgb(13, 154, 11);
+    border-radius: 20px;
+}
+
+.bagian-brand .brand:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+
+/************* TOMBOL PAGE *************/
+.produk-kami .page-item {
+    width: auto;
+    height: 37px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.produk-kami .disabled {
+    color: #a6a6a6;
+    border: 1.5px solid #a6a6a6;
+    border-radius: 12px;
+}
+
+.produk-kami .active {
+    width: 42px;
+    color: white;
+    background-color: rgb(13, 154, 11);
+    border: none;
+    border-radius: 12px;
+}
+
+.produk-kami .pg-2 {
+    width: 42px;
+    color: rgb(13, 154, 11);
+    border: none;
+    border-radius: 12px;
+}
+
+.produk-kami .nxt {
+    color: rgb(13, 154, 11);
+    border: 1.5px solid rgb(13, 154, 11);
+    border-radius: 12px;
+}
+
+.produk-kami .pg-2:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+
+.produk-kami .nxt:hover {
+    color: white;
+    background-color: rgb(13, 154, 11);
+}
+/* close produk kami */
+
+/* Resep terkait */
+.resep-terkait .row-col-3 {
+    width: 98.8%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0%;
+}
+
+.resep-terkait img {
+    overflow: hidden;
+}
+
+.resep-terkait .btn-jam {
+    width: auto;
+    height: 38px;
+    color: rgb(253, 89, 0);
+    border: 1.5px solid rgb(255, 89, 0);
+    border-radius: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.resep-terkait .btn-hat {
+    width: auto;
+    height: 37px;
+    color: rgb(254, 89, 0);
+    border: 1.5px solid rgb(253, 89, 0);
+    border-radius: 12px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.resep-terkait .btn-jam:hover {
+    color: white;
+    background-color: rgb(254, 89, 0);
+}
+
+.resep-terkait .btn-hat:hover {
+    color: white;
+    background-color: rgb(254, 89, 0);
+}
+
+.btn-img-card-hover-zoom {
+    overflow: hidden;
+}
+
+.btn-img-card-hover-zoom img {
+    transition: transform 0.5s ease;
+}
+
+.btn-img-card-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+
+.btn-img-card-hover-zoom:hover h5 {
+    color:rgb(13, 154, 11);
+}
+
+.resep-terkait .btn-akhir {
+    width: 39.2%;
+    height: 47px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 154, 11);
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resep-terkait .btn-akhir:hover {
+    background-color: rgb(14, 136, 12);
+}
+/* close resep terbaru */
+
+
+/* Merek */
+
+.merek .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* close merek */
+
+/* Box Temukan Resep */
+.box-temukan-resep {
+    width: 98.8%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 8px;
+}
+
+.box-temukan-resep .rectangle {
+    width: 100%;
+    height: 193px;
+    background: linear-gradient(to right, rgb(255, 56, 89), rgb(253, 118, 45));
+}
+
+.box-temukan-resep .rectangle img{
+    width: 92.8%;
+    height: 248px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: -72px 0 0 68px;
+    box-shadow: -3px 5px 15px rgba(0, 0, 0, 0.355);
+}
+
+.box-temukan-resep .rectangle p {
+    font-size: 40px;
+    color: white;
+    margin: 22px 0 0 50px;
+}
+
+.box-temukan-resep .rectangle .tombol-gambar {
+    width: 85%;
+    height: 56px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(17, 166, 17);
+    margin: 62.5px 0 0 0;
+    border: 1.5px;
+    border-radius: 30px;
+    box-shadow: -3px 5px 15px rgba(0, 0, 0, 0.5);
+}
+/* close box temukan resep */
+
+/* Footer */
+.foter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.foter .rectangle {
+    width: 100%;
+    height: 320px;
+    background: rgb(255, 68, 11);
+}
+
+.foter .col {
+    margin: 32px 0 0 0;
+}
+
+.foter .kol-1 {
+    margin: 32px 0 0 0;
+}
+
+.foter .colom-1 ul li {
+    color: white;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.foter .colom-2 ul li {
+    color: white;
+    font-size: 16.6px;
+    margin-bottom: 10px;
+}
+
+.foter .colom-3 {
+    margin-right: 90px;
+}
+
+.foter .colom-3 .icon-foter {
+    color: white;
+    margin: -10px 8px 0 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.foter .colom-3 ul li {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.foter .unilever {
+    width: 80px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.foter .recepedia {
+    width: 140px;
+    height: auto;
+    margin-right: -12px;
+}
+
+.foter .kol-1 ul li:hover {
+    text-decoration: underline;
+}
+
+.foter .colom-3 .icon-foter:hover {
+    color: rgb(220, 220, 220);
+}
+/* close footer */
